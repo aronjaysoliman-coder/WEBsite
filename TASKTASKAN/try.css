@@ -2,8 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ffffff;
-  max-width: 1366px;
-  max-height: 768px;
+  height: 100vh;
   overflow-x: hidden;
   background-color: radial-gradient (circle, #3c4a61, #d9e2ec, #bcccdc, #9fb3c8, #829ab1);
   }
@@ -19,9 +18,24 @@ body {
   box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.1);
 }
 
+.main-icon{
+  display: inline-flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 22px;
+  margin-left: 10px;
+  text-shadow: 2px 2px 4px #000000;
+  font-style: italic;
+  align-items: center;
+  color: #dddcdc;
+}
+
 .logo {
   margin: 0px;
   height: 70px;
+  padding: 0px;
 }
 
 .nav {
