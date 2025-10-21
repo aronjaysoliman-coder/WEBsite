@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me | Aron Jay Soliman</title>
+  <style>
+    /* ===== GENERAL STYLES ===== */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #0a1a2f, #b8c7d1);
+      color: #fff;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      background-color: #031020;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== MAIN CONTENT ===== */
+    .about-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+      color: #000;
+    }
+
+    .about-left {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .about-left img {
+      width: 100%;
+      border-radius: 15px;
+      border: 2px solid #2e2e2e;
+    }
+
+    .mission-box {
+      background-color: #ffffff;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: justify;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      position: relative;
+    }
+
+    .mission-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: #031020;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .about-text {
+      background-color: #ffffff;
+      border-radius: 15px;
+      color: #000;
+      padding: 20px;
+      line-height: 1.6;
+      text-align: justify;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    /* ===== SIDE TITLE ===== */
+    .side-title {
+      writing-mode: vertical-rl;
+      transform: rotate(180deg);
+      font-weight: 900;
+      font-size: 28px;
+      color: #000;
+      background-color: #b8c7d1;
+      padding: 10px;
+      border-radius: 10px 0 0 10px;
+      text-align: center;
+      margin-right: 10px;
+      letter-spacing: 1px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background-color: #031020;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 13px;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .about-container {
+        grid-template-columns: 1fr;
+      }
+      .side-title {
+        writing-mode: horizontal-tb;
+        transform: none;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aron Jay Soliman</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Hire Me</a>
+      <a href="#">Works</a>
+    </nav>
+  </header>
+
+  <main class="about-container">
+    <!-- LEFT SIDE -->
+    <div class="about-left">
+      <div style="display: flex; align-items: center;">
+        <div class="side-title">ABOUT ME</div>
+        <img src="about1.jpg" alt="About Image 1">
+      </div>
+      <div class="mission-box">
+        <div class="mission-title">My Mission</div>
+        <p>My mission is to do my best in every goal or challenge that is given to me. I will stay honest and kind to others while working hard to achieve my dreams. I want to use my experiences to motivate and help people see their own potential, so they too can become successful in life.</p>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="about-text">
+      <p>Hi there! I’m Aron Jay Soliman, and welcome to my personal website! I’m a student who’s passionate about learning new things every day — whether it’s about technology, creativity, or personal growth. I enjoy exploring different topics that help me grow not just academically, but also as a person.</p>
+      <p>When I’m not busy studying, you’ll probably find me spending time with friends, discovering something interesting online, or just relaxing and recharging. I believe that every day is a chance to learn something new and make progress, no matter how small.</p>
+      <p>This website is my little space on the internet where I can share my journey, ideas, and projects. Feel free to look around and get to know me better!</p>
+      <img src="about2.jpg" alt="About Image 2" style="width:100%; border-radius:15px; margin-top:15px;">
+    </div>
+  </main>
+
+  <footer>
+    © 2025 AronJay. All rights reserved.
+  </footer>
+
+</body>
+</html>
