@@ -540,20 +540,28 @@ nav a {
 /* End of Works Page */
 
 /* Tools I use */
+.topleft-h1 {
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+}
+
 .tools-cont {
-    width: 90%;
+    width: 97%;
     height: auto;
     background-color: #ffffff;
     margin: 20px;
-}
-
-.tools {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    margin-top: 40px;
     align-items: center;
     justify-items: center;
+    border-radius: 10px;
+    gap: 10px;
 }
 
 .VS-card {
@@ -563,6 +571,7 @@ nav a {
     align-items: center;
     justify-items: center;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .vs_img {
@@ -578,6 +587,7 @@ nav a {
     align-items: center;
     justify-items: center;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .Gclass-img {
@@ -592,11 +602,87 @@ nav a {
     background-color: #3c4a61;
     align-items: center;
     justify-items: center;
+    border-radius: 10px;
 }
 
 .Docs-img {
     width: 50%;
     height: 65%;
+}
+
+.Gmeet-card {
+    text-align: center;
+    margin: 10px;
+    background-color: #3c4a61;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Gmeet-img {
+    width: 70%;
+    height: 70%;
+}
+
+.Excel-card {
+    text-align: center;
+    margin: 10px;
+    background-color: #3c4a61;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Excel-img {
+    width: 70%;
+    height: 80%;
+}
+
+.Gpt-card {
+    text-align: center;
+    margin: 10px;
+    background-color: #3c4a61;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Gpt-img {
+    width: 70%;
+    height: 70%;
+}
+
+.Google-card {
+    text-align: center;
+    margin: 10px;
+    background-color: #3c4a61;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Google-img {
+    width: 70%;
+    height: 70%;
+}
+
+.Canva-card {
+    text-align: center;
+    margin: 10px;
+    background-color: #3c4a61;
+    align-items: center;
+    justify-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Canva-img {
+    width: 70%;
+    height: 70%;
 }
 
 
@@ -614,5 +700,6 @@ footer {
     color: #d0d0d0;
     box-shadow: 0 -3px 10px rgb(0, 0, 0);
 }
+
 
 /* End of Footer */
